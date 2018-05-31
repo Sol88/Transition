@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564476E35668A941BB3F043E /* TRCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5644745BEB4848BAE318CEA2 /* TRCityModel.m */; };
+		DE03F6D620BF1AEB000C72F8 /* TRCitiesService.m in Sources */ = {isa = PBXBuildFile; fileRef = DE03F6D520BF1AEB000C72F8 /* TRCitiesService.m */; };
+		DE03F6DA20BF2C10000C72F8 /* TRCityDetailViewControllerConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE03F6D920BF2C10000C72F8 /* TRCityDetailViewControllerConfigurator.m */; };
+		DE03F6DD20BF2E96000C72F8 /* TRCitiesViewControllerConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE03F6DC20BF2E96000C72F8 /* TRCitiesViewControllerConfigurator.m */; };
+		DE2743C220BA98E800BA1EFC /* TRCityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2743C120BA98E800BA1EFC /* TRCityDetailViewController.m */; };
+		DE2743C420BA9B8F00BA1EFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2743C320BA9B8F00BA1EFC /* Images.xcassets */; };
+		DE2743CF20BBBB5500BA1EFC /* TRExpandTransitionDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2743CE20BBBB5500BA1EFC /* TRExpandTransitionDriver.m */; };
+		DE2743D120BBBB6D00BA1EFC /* TRExpandTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2743D020BBBB6D00BA1EFC /* TRExpandTransitionController.m */; };
+		DE2DE29920B9612800158ED6 /* TRCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2DE29820B9612800158ED6 /* TRCityCollectionViewCell.m */; };
+		DE8B52CA20B92E6E0025826D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8B52C920B92E6E0025826D /* AppDelegate.m */; };
+		DE8B52D020B92E6E0025826D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8B52CE20B92E6E0025826D /* Main.storyboard */; };
+		DE8B52D520B92E6F0025826D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8B52D320B92E6F0025826D /* LaunchScreen.storyboard */; };
+		DE8B52D820B92E6F0025826D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8B52D720B92E6F0025826D /* main.m */; };
+		DEFEBB0F20B935F5000034F0 /* TRCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFEBB0E20B935F5000034F0 /* TRCitiesViewController.m */; };
+		DEFEBB1520B940E3000034F0 /* TRCitiesDataDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFEBB1420B940E3000034F0 /* TRCitiesDataDisplayManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5644745BEB4848BAE318CEA2 /* TRCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCityModel.m; sourceTree = "<group>"; };
+		56447D772A898CAE51416F10 /* TRCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCityModel.h; sourceTree = "<group>"; };
+		DE03F6B720BE7D21000C72F8 /* TRCitiesDataDisplayManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCitiesDataDisplayManagerDelegate.h; sourceTree = "<group>"; };
+		DE03F6D420BF1AEB000C72F8 /* TRCitiesService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCitiesService.h; sourceTree = "<group>"; };
+		DE03F6D520BF1AEB000C72F8 /* TRCitiesService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCitiesService.m; sourceTree = "<group>"; };
+		DE03F6D720BF1AF8000C72F8 /* TRCitiesServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCitiesServiceProtocol.h; sourceTree = "<group>"; };
+		DE03F6D820BF2C10000C72F8 /* TRCityDetailViewControllerConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCityDetailViewControllerConfigurator.h; sourceTree = "<group>"; };
+		DE03F6D920BF2C10000C72F8 /* TRCityDetailViewControllerConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCityDetailViewControllerConfigurator.m; sourceTree = "<group>"; };
+		DE03F6DB20BF2E96000C72F8 /* TRCitiesViewControllerConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCitiesViewControllerConfigurator.h; sourceTree = "<group>"; };
+		DE03F6DC20BF2E96000C72F8 /* TRCitiesViewControllerConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCitiesViewControllerConfigurator.m; sourceTree = "<group>"; };
+		DE2743C020BA98E800BA1EFC /* TRCityDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCityDetailViewController.h; sourceTree = "<group>"; };
+		DE2743C120BA98E800BA1EFC /* TRCityDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCityDetailViewController.m; sourceTree = "<group>"; };
+		DE2743C320BA9B8F00BA1EFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE2743CA20BBB55A00BA1EFC /* TRExpandTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRExpandTransitionController.h; sourceTree = "<group>"; };
+		DE2743CD20BBBB5500BA1EFC /* TRExpandTransitionDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRExpandTransitionDriver.h; sourceTree = "<group>"; };
+		DE2743CE20BBBB5500BA1EFC /* TRExpandTransitionDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRExpandTransitionDriver.m; sourceTree = "<group>"; };
+		DE2743D020BBBB6D00BA1EFC /* TRExpandTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRExpandTransitionController.m; sourceTree = "<group>"; };
+		DE2743D220BBC73900BA1EFC /* TRExpandTransitionOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRExpandTransitionOperation.h; sourceTree = "<group>"; };
+		DE2DE29720B9612800158ED6 /* TRCityCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCityCollectionViewCell.h; sourceTree = "<group>"; };
+		DE2DE29820B9612800158ED6 /* TRCityCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCityCollectionViewCell.m; sourceTree = "<group>"; };
+		DE8B52C520B92E6E0025826D /* transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8B52C820B92E6E0025826D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE8B52C920B92E6E0025826D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE8B52CF20B92E6E0025826D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8B52D420B92E6F0025826D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8B52D620B92E6F0025826D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8B52D720B92E6F0025826D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEFEBB0D20B935F5000034F0 /* TRCitiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCitiesViewController.h; sourceTree = "<group>"; };
+		DEFEBB0E20B935F5000034F0 /* TRCitiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCitiesViewController.m; sourceTree = "<group>"; };
+		DEFEBB1320B940E3000034F0 /* TRCitiesDataDisplayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRCitiesDataDisplayManager.h; sourceTree = "<group>"; };
+		DEFEBB1420B940E3000034F0 /* TRCitiesDataDisplayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRCitiesDataDisplayManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8B52C220B92E6D0025826D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56447657B41E8DF412D587D3 /* CityModel */ = {
+			isa = PBXGroup;
+			children = (
+				56447D772A898CAE51416F10 /* TRCityModel.h */,
+				5644745BEB4848BAE318CEA2 /* TRCityModel.m */,
+			);
+			path = CityModel;
+			sourceTree = "<group>";
+		};
+		56447C87BC4C83A88F4B2459 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56447657B41E8DF412D587D3 /* CityModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE03F6D220BF1ACC000C72F8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DE03F6D320BF1AD6000C72F8 /* CitiesService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DE03F6D320BF1AD6000C72F8 /* CitiesService */ = {
+			isa = PBXGroup;
+			children = (
+				DE03F6D420BF1AEB000C72F8 /* TRCitiesService.h */,
+				DE03F6D520BF1AEB000C72F8 /* TRCitiesService.m */,
+				DE03F6D720BF1AF8000C72F8 /* TRCitiesServiceProtocol.h */,
+			);
+			path = CitiesService;
+			sourceTree = "<group>";
+		};
+		DE2743C820BB142B00BA1EFC /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				DE2743C920BB143700BA1EFC /* ExpandCellTransition */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		DE2743C920BB143700BA1EFC /* ExpandCellTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DE2743CA20BBB55A00BA1EFC /* TRExpandTransitionController.h */,
+				DE2743D020BBBB6D00BA1EFC /* TRExpandTransitionController.m */,
+				DE2743CD20BBBB5500BA1EFC /* TRExpandTransitionDriver.h */,
+				DE2743CE20BBBB5500BA1EFC /* TRExpandTransitionDriver.m */,
+				DE2743D220BBC73900BA1EFC /* TRExpandTransitionOperation.h */,
+			);
+			path = ExpandCellTransition;
+			sourceTree = "<group>";
+		};
+		DE2DE29520B9610300158ED6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE2DE29620B9610800158ED6 /* CityCollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DE2DE29620B9610800158ED6 /* CityCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE2DE29720B9612800158ED6 /* TRCityCollectionViewCell.h */,
+				DE2DE29820B9612800158ED6 /* TRCityCollectionViewCell.m */,
+			);
+			path = CityCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DE8B52BC20B92E6D0025826D = {
+			isa = PBXGroup;
+			children = (
+				DE8B52C720B92E6E0025826D /* transition */,
+				DE8B52C620B92E6E0025826D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8B52C620B92E6E0025826D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B52C520B92E6E0025826D /* transition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8B52C720B92E6E0025826D /* transition */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B52DE20B92EC20025826D /* Sources */,
+				DEFEBB0720B92EE3000034F0 /* Resources */,
+			);
+			path = transition;
+			sourceTree = "<group>";
+		};
+		DE8B52DE20B92EC20025826D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DE03F6D220BF1ACC000C72F8 /* Services */,
+				DE2743C820BB142B00BA1EFC /* Animators */,
+				DE2DE29520B9610300158ED6 /* Cells */,
+				DEFEBB1120B93D79000034F0 /* DataDisplayManagers */,
+				56447C87BC4C83A88F4B2459 /* Models */,
+				DEFEBB0A20B9333F000034F0 /* Modules */,
+				DE8B52C820B92E6E0025826D /* AppDelegate.h */,
+				DE8B52C920B92E6E0025826D /* AppDelegate.m */,
+				DE8B52D720B92E6F0025826D /* main.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DEFEBB0720B92EE3000034F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B52D620B92E6F0025826D /* Info.plist */,
+				DEFEBB0820B92EFE000034F0 /* Storyboards */,
+				DE2743C320BA9B8F00BA1EFC /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEFEBB0820B92EFE000034F0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B52CE20B92E6E0025826D /* Main.storyboard */,
+				DE8B52D320B92E6F0025826D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DEFEBB0A20B9333F000034F0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DEFEBB0C20B933E3000034F0 /* CityDetailModule */,
+				DEFEBB0B20B93354000034F0 /* CitiesModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DEFEBB0B20B93354000034F0 /* CitiesModule */ = {
+			isa = PBXGroup;
+			children = (
+				DEFEBB0D20B935F5000034F0 /* TRCitiesViewController.h */,
+				DEFEBB0E20B935F5000034F0 /* TRCitiesViewController.m */,
+				DE03F6DB20BF2E96000C72F8 /* TRCitiesViewControllerConfigurator.h */,
+				DE03F6DC20BF2E96000C72F8 /* TRCitiesViewControllerConfigurator.m */,
+			);
+			path = CitiesModule;
+			sourceTree = "<group>";
+		};
+		DEFEBB0C20B933E3000034F0 /* CityDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				DE2743C020BA98E800BA1EFC /* TRCityDetailViewController.h */,
+				DE2743C120BA98E800BA1EFC /* TRCityDetailViewController.m */,
+				DE03F6D820BF2C10000C72F8 /* TRCityDetailViewControllerConfigurator.h */,
+				DE03F6D920BF2C10000C72F8 /* TRCityDetailViewControllerConfigurator.m */,
+			);
+			path = CityDetailModule;
+			sourceTree = "<group>";
+		};
+		DEFEBB1120B93D79000034F0 /* DataDisplayManagers */ = {
+			isa = PBXGroup;
+			children = (
+				DEFEBB1220B93D84000034F0 /* CitiesDataDisplayManager */,
+			);
+			path = DataDisplayManagers;
+			sourceTree = "<group>";
+		};
+		DEFEBB1220B93D84000034F0 /* CitiesDataDisplayManager */ = {
+			isa = PBXGroup;
+			children = (
+				DEFEBB1320B940E3000034F0 /* TRCitiesDataDisplayManager.h */,
+				DEFEBB1420B940E3000034F0 /* TRCitiesDataDisplayManager.m */,
+				DE03F6B720BE7D21000C72F8 /* TRCitiesDataDisplayManagerDelegate.h */,
+			);
+			path = CitiesDataDisplayManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8B52C420B92E6D0025826D /* transition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8B52DB20B92E6F0025826D /* Build configuration list for PBXNativeTarget "transition" */;
+			buildPhases = (
+				DE8B52C120B92E6D0025826D /* Sources */,
+				DE8B52C220B92E6D0025826D /* Frameworks */,
+				DE8B52C320B92E6D0025826D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = transition;
+			productName = transition;
+			productReference = DE8B52C520B92E6E0025826D /* transition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8B52BD20B92E6D0025826D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TR;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					DE8B52C420B92E6D0025826D = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE8B52C020B92E6D0025826D /* Build configuration list for PBXProject "transition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8B52BC20B92E6D0025826D;
+			productRefGroup = DE8B52C620B92E6E0025826D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8B52C420B92E6D0025826D /* transition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8B52C320B92E6D0025826D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2743C420BA9B8F00BA1EFC /* Images.xcassets in Resources */,
+				DE8B52D520B92E6F0025826D /* LaunchScreen.storyboard in Resources */,
+				DE8B52D020B92E6E0025826D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8B52C120B92E6D0025826D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE03F6DA20BF2C10000C72F8 /* TRCityDetailViewControllerConfigurator.m in Sources */,
+				DE2743C220BA98E800BA1EFC /* TRCityDetailViewController.m in Sources */,
+				DE8B52D820B92E6F0025826D /* main.m in Sources */,
+				DEFEBB1520B940E3000034F0 /* TRCitiesDataDisplayManager.m in Sources */,
+				DE8B52CA20B92E6E0025826D /* AppDelegate.m in Sources */,
+				DEFEBB0F20B935F5000034F0 /* TRCitiesViewController.m in Sources */,
+				DE2DE29920B9612800158ED6 /* TRCityCollectionViewCell.m in Sources */,
+				DE03F6D620BF1AEB000C72F8 /* TRCitiesService.m in Sources */,
+				DE03F6DD20BF2E96000C72F8 /* TRCitiesViewControllerConfigurator.m in Sources */,
+				DE2743D120BBBB6D00BA1EFC /* TRExpandTransitionController.m in Sources */,
+				564476E35668A941BB3F043E /* TRCityModel.m in Sources */,
+				DE2743CF20BBBB5500BA1EFC /* TRExpandTransitionDriver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE8B52CE20B92E6E0025826D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8B52CF20B92E6E0025826D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE8B52D320B92E6F0025826D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8B52D420B92E6F0025826D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8B52D920B92E6F0025826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE8B52DA20B92E6F0025826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8B52DC20B92E6F0025826D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3RN7L9A98V;
+				INFOPLIST_FILE = "$(SRCROOT)/transition/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.transition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5f5863a2-3445-4e88-a726-22c576df02fb";
+				PROVISIONING_PROFILE_SPECIFIER = common_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE8B52DD20B92E6F0025826D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/transition/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.transition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8B52C020B92E6D0025826D /* Build configuration list for PBXProject "transition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B52D920B92E6F0025826D /* Debug */,
+				DE8B52DA20B92E6F0025826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8B52DB20B92E6F0025826D /* Build configuration list for PBXNativeTarget "transition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B52DC20B92E6F0025826D /* Debug */,
+				DE8B52DD20B92E6F0025826D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8B52BD20B92E6D0025826D /* Project object */;
+}
